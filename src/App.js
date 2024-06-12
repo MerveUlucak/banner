@@ -8,10 +8,10 @@ export default function Banner() {
   }
 
   return (
-    <div className="banner-wrapper">
+    <div className="banner-wrapper h-screen flex justify-center items-center">
       <div className="flex">
         <div className="flex-shrink-0">{bannerData.icon}</div>
-        <div className="banner-content">
+        <div className="banner-content text-center ml-2">
           <p className="banner-text">
             Yeni bir yazılım güncellemesi mevcuttur. Sürüm {bannerData.version}{' '}
             yeniliklerini inceleyin.
